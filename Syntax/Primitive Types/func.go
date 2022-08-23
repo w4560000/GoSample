@@ -22,7 +22,7 @@ func Test1(key ...string) {
 	fmt.Println(key)
 }
 
-// go的func 寫法 return 值在後面
+// go的func 寫法 return 值在後面 (類似 Typescript)
 func Test2() int {
 	return 1
 }

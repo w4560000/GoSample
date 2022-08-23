@@ -10,7 +10,7 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}/Syntax/Primitive Types/DeclareParameter.go",
+            "program": "${workspaceFolder}/Syntax/Primitive Types/array.go",
             "env": {},
             "args": []
         }
