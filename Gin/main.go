@@ -1,6 +1,8 @@
 package main
 
 import (
+	"GOSAMPLE/Syntax/bxtest"
+
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -16,4 +18,8 @@ func main() {
 	})
 
 	router.Run(":7000")
+}
+
+func a() int {
+	return bxtest.Add(1, 2)
 }
